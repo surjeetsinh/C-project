@@ -3,8 +3,8 @@
 int main () {
 	int i,j;
 	
-	for (i=45;i<=49;i++) {
-		for (j=45;j<=i;j++) {
+	for (i=1;i<=5;i++) {
+		for (j=5;j>=i;j--) {
 			printf("%d",j);		
 		}
 		printf("\n");

@@ -1,11 +1,13 @@
 #include<stdio.h>
 
 int main () {
-	int i,j;
+	int i,j,sum=0;
 	
-	for (i=5;i>=1;i--) {         //row
+	for (i=1;i<=5;i++) {         //row
 		for (j=1;j<=i;j++) {     //column
-			printf("%d",j);		
+			sum =+ sum+1;
+			printf("%d ",sum);
+				
 		}
 		printf("\n");
 	}

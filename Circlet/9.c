@@ -3,9 +3,9 @@
 int main () {
 	int i,j;
 	
-	for (i=45;i<=49;i++) {
-		for (j=45;j<=i;j++) {
-			printf("%d",j);		
+	for (i=1;i<=5;i++) {
+		for (j=i;j>=1;j--) {
+			printf("%d",i);		
 		}
 		printf("\n");
 	}
